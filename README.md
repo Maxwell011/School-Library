@@ -1,14 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>School library README</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -41,8 +32,8 @@
 
 ## 🛠 Built With <a name="built-with">
 
-Ruby
-Rubocop linters
+- Ruby
+- Rubocop linters
 </a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -189,9 +180,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Basic UI]**
+- [ ] **[Unit Tests]**
+- [ ] **[Simple Design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
