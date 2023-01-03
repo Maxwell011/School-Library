@@ -1,5 +1,5 @@
-class person 
-   attr_accessor :id, :name, :age
+class Person
+  attr_accessor :id, :name, :age
 
   def initialize(id, name, age, parents_permission = 'Unknown')
     @id = id,
@@ -19,5 +19,4 @@ class person
   def can_use_services?
     of_age? || @parents_permission == true
   end
-
 end
