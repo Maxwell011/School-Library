@@ -1,7 +1,7 @@
 require './base_decorator'
 
-class CapitalizeDecorator < Decorator
+class CapitalizeDecorator < BaseDecorator
   def correct_name
-    super.capitalize
+    @nameable.correct_name.split.map(&:capitalize).join(' ')
   end
 end
