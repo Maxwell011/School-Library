@@ -1,14 +1,15 @@
-class Person
-  attr_reader :id
-  attr_accessor :name, :age
+require './nameable'
 
-  def initialize(age, name = 'Unknown', parents_permission: true)
-    @id = id
-    @name = name
-    @age = age
-    @parents_permission = parents_permission
+class Person < Nameable
+  attr_accessor :id, :name, :age
+
+  def initialize(id, name, age, parents_permission = 'Unknown')
+    @id = id,
+          @name = name,
+          @age = age,
+          @parents_permission = parents_permission
+    super
   end
-
   private
 
   def of_age?
