@@ -10,6 +10,7 @@ class Person < Nameable
           @parents_permission = parents_permission
     super
   end
+
   private
 
   def of_age?
