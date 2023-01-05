@@ -1,6 +1,6 @@
 require './nameable'
-require './base_decorater'
-require './capital_decorator'
+require './base_decorator'
+require './capitalize_decorator'
 require './trimmer_decorater'
 require './book'
 require './rental'
