@@ -2,17 +2,24 @@ require './nameable'
 require './base_decorater'
 require './capitalize_decorator'
 require './trimmer_decorator'
+require './book'
+require './rental'
 
 class Person < Nameable
+  attr_accessor :name, :age, :rentals
+  attr_reader :id
   def initialize(age, name = 'unknown', parents_permission: true)
     super()
     @id = Random.rand(1..10_000)
     @name = name
     @age = age
     @parents_permission = parents_permission
+    @rentals = []
   end
-  attr_accessor :name, :age
-  attr_reader :id
+
+  def add_rental(date, person)
+    Rental.new(date, self, person)
+  end
 
   def correct_name
     @name
