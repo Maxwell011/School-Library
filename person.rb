@@ -1,9 +1,9 @@
-require './nameable'
-require './base_decorator'
-require './capitalize_decorator'
-require './trimmer_decorator'
-require './book'
-require './rental'
+require_relative './nameable'
+require_relative './base_decorator'
+require_relative './capitalize_decorator'
+#require_relative './trimmer_decorator'
+require_relative './book'
+require_relative './rental'
 
 class Person < Nameable
   attr_accessor :name, :age
