@@ -1,13 +1,12 @@
-require './nameable'
-require './base_decorator'
-require './capitalize_decorator'
-require './trimmer_decorater'
-require './book'
-require './rental'
-require './student'
-require './teacher'
-require './person'
-require './classroom'
+require_relative './nameable'
+require_relative './base_decorator'
+require_relative './capitalize_decorator'
+require_relative './book'
+require_relative'./rental'
+require_relative './student'
+require_relative './teacher'
+require_relative './person'
+require_relative'./classroom'
 
 class App
   def initialize
